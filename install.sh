@@ -3,7 +3,7 @@ set -e
 
 # Install required packages
 apt-get update -y
-apt-get -y install zsh git
+apt-get -y install zsh git vim
 
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
