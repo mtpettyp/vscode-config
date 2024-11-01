@@ -11,4 +11,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Homeshick
 git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
 $HOME/.homesick/repos/homeshick/bin/homeshick clone mtpettyp/dotfiles -b
-$HOME/.homesick/repos/homeshick/bin/homeshick link dotfiles
+$HOME/.homesick/repos/homeshick/bin/homeshick link dotfiles -f
