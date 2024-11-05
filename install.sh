@@ -1,9 +1,15 @@
 #!/bin/bash
 set -e
 
+if command -v sudo &> /dev/null; then
+    SUDO="sudo"
+else
+    SUDO=""
+fi
+
 # Install required packages
-sudo apt-get update -y
-sudo apt-get -y install zsh git vim sudo
+$SUDO apt-get update -y
+$SUDO apt-get -y install zsh git vim
 
 OH_MY_ZSH_DIR="$HOME/.oh-my-zsh"
 
