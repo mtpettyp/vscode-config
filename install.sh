@@ -6,7 +6,7 @@ sudo apt-get update -y
 sudo apt-get -y install zsh git vim
 
 # Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 
 # Homeshick
 git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
