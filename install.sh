@@ -3,7 +3,7 @@ set -e
 
 # Install required packages
 sudo apt-get update -y
-sudo apt-get -y install zsh git vim
+sudo apt-get -y install zsh git vim sudo
 
 OH_MY_ZSH_DIR="$HOME/.oh-my-zsh"
 
